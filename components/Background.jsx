@@ -21,8 +21,9 @@ const Background = () => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#ffffff',
-    height: '100%',
+    minHeight: '100%',
     alignItems: 'center',
+    position: 'relative'
   },
   img: {
     width: '100%',
