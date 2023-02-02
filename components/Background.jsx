@@ -5,7 +5,7 @@ const Background = () => {
     <View style={styles.container}>
       <Image
         style={styles.img}
-        source={require('../images/background-color/background-color.png')}
+        source={require('../assets/background-color/background-color.png')}
       />
       <Text style={styles.text}>
         Pentru informații detaliate despre celelalte programe cofinanțate de

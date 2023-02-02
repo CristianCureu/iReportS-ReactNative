@@ -7,33 +7,33 @@ const SelectActivity = ({ navigation }) => {
         style={[styles.item, styles.border]}
         onPress={() => navigation.navigate('LoginScreen')}>
         <Image
-          source={require('../images/icon-raportare-problema/icon-raportare-problema.png')}
+          source={require('../assets/icon-raportare-problema/icon-raportare-problema.png')}
         />
         <Text style={styles.itemText}>Raportare problemă</Text>
         <Image
-          source={require('../images/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
+          source={require('../assets/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
         />
       </TouchableOpacity>
       <TouchableOpacity
         style={[styles.item, styles.border]}
         onPress={() => navigation.navigate('LoginScreen')}>
         <Image
-          source={require('../images/icon-consultare-publica/icon-consultare-publica.png')}
+          source={require('../assets/icon-consultare-publica/icon-consultare-publica.png')}
         />
         <Text style={styles.itemText}>Consultare publică</Text>
         <Image
-          source={require('../images/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
+          source={require('../assets/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
         />
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.item}
         onPress={() => navigation.navigate('LoginScreen')}>
         <Image
-          source={require('../images/icon-buget-participativ/icon-buget-participativ.png')}
+          source={require('../assets/icon-buget-participativ/icon-buget-participativ.png')}
         />
         <Text style={styles.itemText}>Buget participativ</Text>
         <Image
-          source={require('../images/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
+          source={require('../assets/icon-meniu-selectat-activ/icon-meniu-selectat-activ.png')}
         />
       </TouchableOpacity>
     </View>

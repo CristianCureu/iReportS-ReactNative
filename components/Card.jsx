@@ -5,12 +5,12 @@ const Card = ({children}) => {
     <View style={[styles.container, styles.shadow]}>
       <View style={styles.header}>
         <Image
-          source={require('../images/header-sigle-eu/header-sigle-eu.png')}
+          source={require('../assets/header-sigle-eu/header-sigle-eu.png')}
         />
       </View>
       <View style={styles.logo}>
         <Image
-          source={require('../images/logo-sighisoara/logo-sighisoara.png')}
+          source={require('../assets/logo-sighisoara/logo-sighisoara.png')}
         />
         <Text style={styles.logoText}>iReport Sighișoara</Text>
       </View>
