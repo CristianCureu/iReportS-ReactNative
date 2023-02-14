@@ -1,18 +1,13 @@
 import { StyleSheet, View } from 'react-native';
 import Background from '../components/Background';
 import Card from '../components/Card';
-import Login from '../components/Login';
+import ForgotPassword from '../components/ForgotPassword';
 
-const LoginScreen = ({ navigation, onChangeToken }) => {
-
+const ForgotPasswordScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Background />
-      <Card
-        children={
-          <Login navigation={navigation} onChangeToken={onChangeToken} />
-        }
-      />
+      <Card children={<ForgotPassword navigation={navigation} />} />
     </View>
   );
 };
@@ -24,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LoginScreen;
+export default ForgotPasswordScreen;

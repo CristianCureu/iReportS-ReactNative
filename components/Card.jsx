@@ -1,6 +1,6 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Button, Image, StyleSheet, Text, View } from 'react-native';
 
-const Card = ({children}) => {
+const Card = ({ children }) => {
   return (
     <View style={[styles.container, styles.shadow]}>
       <View style={styles.header}>
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     height: '70%',
     backgroundColor: '#fff',
     alignItems: 'center',
+    justifyContent: 'space-around',
     fontFamily: 'Poppins',
   },
   shadow: {
@@ -41,14 +42,8 @@ const styles = StyleSheet.create({
 
     elevation: 14,
   },
-  header: {
-    top: '5%',
-    position: 'absolute'
-  },
   logo: {
     alignItems: 'center',
-    top: '20%',
-    position: 'absolute'
   },
   logoText: { fontSize: 11, fontWeight: 'bold', color: '#080909' },
 });

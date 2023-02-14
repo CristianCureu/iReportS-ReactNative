@@ -44,8 +44,6 @@ const styles = StyleSheet.create({
   items: {
     width: '90%',
     height: '50%',
-    position: 'absolute',
-    bottom: '5%'
   },
   item: {
     height: '30%',
